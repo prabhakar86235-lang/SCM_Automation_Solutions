@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Prabhakar Kumar | Automation & Dashboard Solutions</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI, Arial, sans-serif;
+    color:#333;
+    line-height:1.6;
+}
+
+/* NAVBAR */
+
+nav{
+    background:#0B5CAD;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+
+/* HERO */
+
+.hero{
+
+    min-height:90vh;
+
+    background:linear-gradient(
+    135deg,
+    #0B5CAD,
+    #00AEEF
+    );
+
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    padding:40px;
+}
+
+.hero h1{
+
+    font-size:58px;
+    margin-bottom:20px;
+}
+
+.hero p{
+
+    font-size:22px;
+    max-width:900px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 30px;
+    background:white;
+    color:#0B5CAD;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:8px;
+}
+
+/* SECTIONS */
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:38px;
+    color:#0B5CAD;
+    margin-bottom:50px;
+}
+
+/* SERVICES */
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+
+    background:white;
+
+    width:320px;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#0B5CAD;
+    margin-bottom:15px;
+}
+
+/* ABOUT */
+
+.about{
+
+    background:#f7f7f7;
+
+    border-radius:12px;
+
+    padding:35px;
+}
+
+/* PROJECTS */
+
+.project{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+/* CONTACT */
+
+.contact{
+
+    background:#0B5CAD;
+    color:white;
+    text-align:center;
+}
+
+.contact a{
+    color:white;
+}
+
+.contact-form{
+
+    max-width:600px;
+    margin:auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+
+    border:none;
+    border-radius:8px;
+}
+
+.contact-form button{
+
+    background:#00AEEF;
+    color:white;
+
+    border:none;
+
+    padding:15px 30px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
+
+footer{
+
+    background:#052B54;
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:40px;
+}
+
+nav{
+flex-direction:column;
+gap:15px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+Prabhakar Kumar
+</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div>
+
+<h1>
+Business Automation That Saves Time & Money
+</h1>
+
+<p>
+
+I build custom automation tools, dashboards, reporting systems,
+and business applications that eliminate manual work and improve
+decision-making.
+
+</p>
+
+<a class="btn" href="#contact">
+Request a Free Consultation
+</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">
+About Me
+</h2>
+
+<div class="about">
+
+<p>
+
+I'm Prabhakar Kumar, a Supply Chain professional and Automation Developer.
+
+I help organizations automate reporting, email workflows,
+data processing, KPI dashboards, procurement tracking,
+inventory analysis, and operational processes.
+
+Using Python, Excel, SQL, Streamlit, JavaScript and web technologies,
+I build practical solutions that reduce manual effort and improve visibility.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="section-title">
+Services
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Python Automation</h3>
+
+<ul>
+<li>Excel Automation</li>
+<li>Reporting Automation</li>
+<li>Email Automation</li>
+<li>Data Processing</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h3>Dashboard Development</h3>
+
+<ul>
+<li>Executive Dashboards</li>
+<li>KPI Monitoring</li>
+<li>Management Reporting</li>
+<li>Business Analytics</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h3>Supply Chain Analytics</h3>
+
+<ul>
+<li>Inventory Analysis</li>
+<li>Procurement Tracking</li>
+<li>PO Monitoring</li>
+<li>Supplier Reporting</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="portfolio">
+
+<h2 class="section-title">
+Featured Projects
+</h2>
+
+<div class="cards">
+
+<div class="project">
+
+<h3>Email Analytics Platform</h3>
+
+<p>
+
+Email response tracking, pending action monitoring,
+team analysis and productivity insights.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Operations Control Tower</h3>
+
+<p>
+
+Monitoring approvals, purchase orders,
+tracking workflows and operational metrics.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Business Dashboard Suite</h3>
+
+<p>
+
+Interactive dashboards for managers
+and business leaders.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2 class="section-title" style="color:white;">
+Let's Discuss Your Project
+</h2>
+
+<div class="contact-form">
+
+<form onsubmit="submitForm(event)">
+
+<input
+type="text"
+id="name"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Your Email"
+required>
+
+<textarea
+rows="6"
+id="message"
+placeholder="Tell me about your project"
+required></textarea>
+
+<button type="submit">
+Send Inquiry
+</button>
+
+</form>
+
+<p id="success" style="margin-top:20px;"></p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Prabhakar Kumar
+
+</p>
+
+</footer>
+
+<script>
+
+function submitForm(event){
+
+event.preventDefault();
+
+document.getElementById("success").innerHTML =
+"Thank you! Your inquiry has been received. I will contact you soon.";
+
+document.querySelector("form").reset();
+
+}
+
+</script>
+
+</body>
+</html>
